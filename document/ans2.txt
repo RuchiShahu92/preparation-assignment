@@ -1,0 +1,7 @@
+Start your MySQL server service from MySQL home directory.
+Type: mysql -u user -p [pressEnter]
+Type: your password [pressEnter]
+Type: Show databases;
+Type: use (database_name) (here i am use mindtree_practical)
+Type: CREATE TABLE uniquekey_generator(id VARCHAR(255) NOT NULL, keyName VARCHAR(50) NOT NULL, PRIMARY KEY(id));
+Type: insert into uniquekey_generator(id,keyName) values(UUID(), "TestUUID");

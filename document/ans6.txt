@@ -1,0 +1,44 @@
+telnet hostname
+
+or
+
+telnet ip add port number
+
+
+---------------------------------------
+Apply
+
+credentials (UN/ PW)
+-------------------------------------
+Go to Folder You want to Zip,
+Here, For Zip:Using 7zip App CMD Lines;
+
+C:\Users\Ruchi>7za a -t7z folder1.7z *.txt
+
+//folder1 have follwing text 
+file
+file1.txt
+
+file2.txt
+
+
+// Creating archive files.7z
+
+  
+
+ Compressing  file1.txt & file2.txt
+
+---------------------------------
+----
+
+Unzip
+
+
+
+7z e Folder1.zip
+
+
+7z:          executable
+
+e:           use extract command
+archive.zip: source archive you want to expand
