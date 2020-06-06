@@ -11,7 +11,7 @@ class Employee extends CI_Controller {
         $this->viewname   = $this->router->uri->segments[1];
        
     }
-
+ 
 /*
     @Description: get List of employee, pagination
     @Author: Ruchi Shahu
